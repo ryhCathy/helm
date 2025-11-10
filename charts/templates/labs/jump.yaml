@@ -35,7 +35,7 @@ spec:
               subPath: authorized_keys
               readOnly: true
             - name: jump-pv
-              mountPath: /home/core/core
+              mountPath: /home/core
           resources:
             requests:
               cpu: 250m
